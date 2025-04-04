@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CONTACT</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="black">
+    <!---HEADER-->
+    <header>
+      <div class="dropdown-center text-center d-md-none">
+        <button
+          class="btn btn-secondary dropdown-toggle mt-4 mb-5"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <i class="bi bi-list"></i>
+        </button>
+        <ul class="dropdown-menu bg-dark-subtle">
+          <li><a class="dropdown-item" href="home.html">HOME</a></li>
+          <li><a class="dropdown-item" href="merchand.html">MERCH</a></li>
+          <li><a class="dropdown-item" href="events.html">EVENTS</a></li>
+          <li><a class="dropdown-item" href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <!--Menu pantallas grandes-->
+      <div class="d-none d-md-flex justify-content-center">
+        <a class="btn btn-secondary mx-2 mt-5" href="home.html">HOME</a>
+        <a class="btn btn-secondary mx-2 mt-5" href="merchand.html">MERCHAND</a>
+        <a class="btn btn-secondary mx-2 mt-5" href="events.html">EVENTS</a>
+        <a class="btn btn-secondary mx-2 mt-5" href="contact.html">CONTACT</a>
+      </div>
+      <div class="text-center mt-5 mt-xl-3">
+        <a href="">
+          <img src="imagenes/4.png" alt="" class="imagen-animada"
+        /></a>
+      </div>
+    </header>
+
+<!--CONTACT-->
+
+<form method="post" class="p-5 fw-bold row form mt-1">
+    <div class="text-center letras fs-1 imagen-animada mb-5">CONTACTO</div>
+    <div class="form-floating mb-3 col-6">
+        <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre o apodo" required>
+        <label for="nombre" class="ms-1">Nombre completo o apodo</label>
+    </div>
+
+    <div class="form-floating mb-3 col-6">
+        <input type="number" class="form-control" id="edad" placeholder="Ingresa tu edad" required>
+        <label for="edad" class="ms-1">Edad</label>
+    </div>
+
+    <div class="form-floating mb-3 col-6">
+        <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+        <label for="email" class="ms-1">Correo electrónico</label>
+    </div>
+
+    <div class="form-floating mb-3 col-6">
+        <input type="number" class="form-control" id="telefono" placeholder="name@example.com" required>
+        <label for="telefono" class="ms-1">Número de teléfono</label>
+    </div>
+
+    <div class="form-floating mb-3 col-6">
+        <input type="text" class="form-control" id="ciudad" placeholder="Ingresa tu ciudad" required>
+        <label for="ciudad" class="ms-1">Ciudad de procedencia</label>
+    </div>
+
+    <div class="form-floating mb-3 col-6">
+        <input type="text" class="form-control" id="codigoPostal" placeholder="Ingresa tu código postal" required>
+        <label for="codigoPostal" class="ms-1">Código postal</label>
+    </div>
+   
+    <div class="fw-bold row form2 mt-1">
+        <div class="text-center letras fs-1 imagen-animada mb-5">QUEREMOS CONOCERTE</div>
+    <div class="form-floating mb-3">
+        <select class="form-select" id="genero" required>
+            <option value="" selected>Solo puedes seleccionar uno</option>
+            <option value="hiphop">Hip Hop</option>
+            <option value="drumbass">Drum&Bass</option>
+            <option value="breakbeat">BreakBeat</option>
+            <option value="techno">Techno</option>
+            <option value="reggae">Reggae</option>
+            <option value="dub">Dub</option>
+            <option value="dancehall">Dancehall</option>
+            <option value="reggaeton">Reggaeton</option>
+        </select>
+        <label for="genero" class="ms-1 text-dark">Género de música favorito</label>
+    </div>
+
+    <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="cancion" placeholder="Ingresa el nombre de una canción" required>
+        <label for="cancion" class="ms-1">Canción que no puede faltar en la fiesta</label>
+    </div>
+
+    <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="artista" placeholder="Ingresa tu artista o DJ favorito" required>
+        <label for="artista" class="ms-1">Artista o DJ favorito</label>
+    </div>
+
+    <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="bebida" placeholder="Ingresa tu bebida favorita" required>
+        <label for="bebida" class="ms-1">Bebida favorita o tipo de bebida preferida</label>
+    </div>
+
+    <div class="form-check mb-3 text-white ms-2">
+        <input type="checkbox" class="form-check-input" id="privacidad" required>
+        <label class="form-check-label ms-1" for="privacidad">Acepto la <a href="#" class="text-white fw-bold">política de privacidad</a></label>
+    </div>
+
+    <div class="form-check mb-4 text-white ms-2">
+        <input type="checkbox" class="form-check-input" id="publicidad">
+        <label class="form-check-label ms-1" for="publicidad">Acepto recibir comunicaciones publicitarias</label>
+    </div>
+    </div>
+    <button type="submit" class="btn btn-secondary col-3 btn-block">Enviar</button>
+</form>
+
+    <!---SECCION REDES-->
+    <div class="fs-1 letras text-center col-12 mt-5 imagen-animada fw-bold">Nuestras redes</div>
+    <div class="d-md-flex justify-content-between mt-lg-5 p-md-5">
+    <div class="col-md-6">
+      <div class="text-center mt-5 rrssHover ">
+        <a href="#">
+          <img src="imagenes/logoUMANcircle.png" alt="" class="instaUman" />
+        </a>
+        <div class="rounded-pill bg-white mt-3 col-3 mx-auto">
+          <a href="" class="text-decoration-none fw-bold">U-MAN</a>
+        </div>
+      </div>
+    </div>
+    <div class="mt-5 col-md-6">
+      <div class="text-center rrssHover">
+        <a href="#">
+          <img src="imagenes/DjSoroLogoWhite.png" alt="" class="instaUman" />
+        </a>
+        <div class="rounded-pill bg-white mt-3 mb-2 w-25 mx-auto">
+          <a href="" class="text-decoration-none fw-bold">SORO</a>
+        </div>
+      </div>
+    </div>
+  </div>
+    <hr >
+    <!--LOCALIZANOS-->
+    <div class="fs-1 letras text-center col-12 mb-5 imagen-animada-localizanos fw-bold">LOCALIZANOS</div>
+
+    <div class="d-flex flex-wrap align-items-center">
+      <div class="col-12 col-lg-7 px-2 text-center">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3042.218388147848!2d-3.8780433!3d40.315310499999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd418dc52b76400b%3A0xada27d3490b1150!2sUrban%20Underground%20Club!5e0!3m2!1ses!2ses!4v1731077551672!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mb-5 col-10 col-lg-10"></iframe>
+</div>
+      <div class="d-flex flex-wrap mx-auto col-lg-5 fw-bold">
+        <div class="col-6 p-2 text-white">
+          <p>C. Río Segre, 2</p>
+          <p>28935 Móstoles, España</p>
+          <p>Tlfn: 684 099 716</p>
+
+        </div>
+        <div class="col-6 p-2 text-white">
+          <p>Horario:</p>
+          <p>jueves: 22:00 – 3:00</p>
+          <p>viernes: 22:00 – 3:00</p>
+          <p>sábado: 22:00 – 3:00</p>
+
+        </div>
+        <hr />
+      </div>
+    </div>
+<hr>
+ <!---FOOTER-->
+ <footer class="mt-5 p-5 col-lg-10 mx-auto text-center">
+    <div class="d-flex text-center  justify-content-between mx-auto">
+      <div>
+        <a href=""><i class="bi bi-instagram iconos"></i></a>
+      </div>
+      <div>
+        <a href=""><i class="bi bi-spotify iconos"></i></a>
+      </div>
+      <div>
+        <a href=""><i class="bi bi-facebook iconos"></i></a>
+      </div>
+      <div>
+        <a href=""><i class="bi bi-youtube iconos"></i></a>
+      </div>
+      <div>
+        <a href=""><i class="bi bi-twitter iconos"></i></a>
+      </div>
+      <div>
+        <a href=""><i class="bi bi-apple iconos"></i></a>
+      </div>
+      <div>
+        <a href=""><i class="bi bi-tiktok iconos"></i></a>
+      </div>
+    </div>
+    <div class="mt-2 letras">
+      En <strong>Kimik Groove</strong> nos esforzamos por crear un espacio
+      seguro, inclusivo y libre de juicios, donde todas las personas son
+      bienvenidas sin importar sus gustos, vestimenta o estilo de vida. Nos
+      enorgullece ser un lugar de encuentro para personas de todos los
+      trasfondos y grupos, y promovemos el respeto y la convivencia entre
+      todos nuestros asistentes.
+      <hr />
+    </div>
+    <div class="letras d-flex justify-content-between text-center">
+      <div class="col-6 col-md-4">
+        <!-- Términos con Modales -->
+        <p data-bs-toggle="modal" data-bs-target="#modalResponsabilidad" class="text-white" style="cursor: pointer;">
+            Responsabilidad personal
+        </p>
+        <p data-bs-toggle="modal" data-bs-target="#modalInclusion" class="text-white" style="cursor: pointer;">
+            Actitud de inclusión
+        </p>
+        <p data-bs-toggle="modal" data-bs-target="#modalSeguridad" class="text-white" style="cursor: pointer;">
+            Seguridad
+        </p>
+    </div>
+    <div class="col-6 col-md-4">
+        <p data-bs-toggle="modal" data-bs-target="#modalRespeto" class="text-white" style="cursor: pointer;">
+            Respeto mutuo
+        </p>
+        <p data-bs-toggle="modal" data-bs-target="#modalNoJuicio" class="text-white" style="cursor: pointer;">
+            Actitud de no juicio
+        </p>
+        <p data-bs-toggle="modal" data-bs-target="#modalTolerancia" class="text-white" style="cursor: pointer;">
+            Tolerancia cero al acoso
+        </p>
+    </div>
+    <div class="noneImg">
+      <img src="imagenes/4.png" class="" alt="">
+    </div> 
+</div>
+</div>
+
+<!-- Modal Responsabilidad Personal -->
+<div class="modal fade" id="modalResponsabilidad" tabindex="-1" aria-labelledby="modalResponsabilidadLabel" aria-hidden="true">
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="modalResponsabilidadLabel">Responsabilidad personal</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          En <strong>Kimik Groove</strong>, la responsabilidad personal es fundamental para asegurar que todos nuestros asistentes se sientan respetados y cómodos. Nos esforzamos por fomentar un ambiente donde cada persona asuma la responsabilidad de sus acciones, contribuyendo a un espacio donde el respeto y la convivencia sean valores esenciales. Creemos que cada miembro de nuestra comunidad debe ser consciente del impacto de su comportamiento y contribuir activamente al bienestar colectivo.          </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- Modal Actitud de Inclusión -->
+<div class="modal fade" id="modalInclusion" tabindex="-1" aria-labelledby="modalInclusionLabel" aria-hidden="true">
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="modalInclusionLabel">Actitud de inclusión</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          La inclusión es un valor clave en <strong>Kimik Groove</strong>. Nos enorgullece ser un lugar donde todas las personas son bienvenidas, independientemente de su origen, estilo de vida o intereses. Nuestra actitud de inclusión busca promover la aceptación de la diversidad en todas sus formas. Al abrir nuestras puertas a diferentes culturas, estilos y personalidades, creamos un ambiente vibrante y enriquecedor donde todos pueden sentirse cómodos y parte de algo más grande.
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- Modal Seguridad -->
+<div class="modal fade" id="modalSeguridad" tabindex="-1" aria-labelledby="modalSeguridadLabel" aria-hidden="true">
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="modalSeguridadLabel">Seguridad</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          La seguridad es una prioridad en <strong>Kimik Groove</strong>. Trabajamos continuamente para garantizar que todos nuestros asistentes se sientan protegidos y seguros en cada momento. Fomentamos un entorno donde no se tolera ningún tipo de violencia, acoso ni discriminación, asegurando que todas las personas puedan disfrutar de su experiencia sin miedo a ser juzgadas o agredidas. Nuestro objetivo es crear un espacio donde todos puedan expresarse libremente y disfrutar de una experiencia única.
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- Modal Respeto Mutuo -->
+<div class="modal fade" id="modalRespeto" tabindex="-1" aria-labelledby="modalRespetoLabel" aria-hidden="true">
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="modalRespetoLabel">Respeto mutuo</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          En <strong>Kimik Groove</strong>, el respeto mutuo es la base de nuestra convivencia. Creemos que la clave para un ambiente armonioso es tratar a los demás con consideración y empatía, independientemente de las diferencias. Cada uno de nosotros tiene el derecho de ser tratado con dignidad, y nos aseguramos de que todos en nuestra comunidad se adhieran a este principio, creando así un espacio donde el respeto sea la norma, no la excepción.          </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- Modal Actitud de No Juicio -->
+<div class="modal fade" id="modalNoJuicio" tabindex="-1" aria-labelledby="modalNoJuicioLabel" aria-hidden="true">
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="modalNoJuicioLabel">Actitud de no juicio</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          La actitud de no juicio es uno de los pilares de <strong>Kimik Groove</strong>. Aquí, valoramos la libertad de expresión y la autenticidad, y creemos que todos deben sentirse libres para ser quienes realmente son, sin temor a ser juzgados. Promovemos un ambiente donde la aceptación de las diferencias es la norma y donde nadie es etiquetado o excluido por sus gustos, creencias o decisiones. Este es un lugar donde cada persona tiene la oportunidad de mostrar su verdadero ser.          </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- Modal Tolerancia Cero al Acoso -->
+<div class="modal fade" id="modalTolerancia" tabindex="-1" aria-labelledby="modalToleranciaLabel" aria-hidden="true">
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="modalToleranciaLabel">Tolerancia cero al acoso</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <strong>Kimik Groove</strong> mantiene una política de tolerancia cero al acoso. Nos comprometemos a proporcionar un ambiente libre de conductas abusivas, intimidatorias o discriminatorias. Cualquier forma de acoso, ya sea físico, verbal o emocional, está estrictamente prohibida. Nos aseguramos de que todos los miembros de nuestra comunidad se sientan seguros y apoyados, promoviendo una cultura de respeto y apoyo mutuo para que todos puedan disfrutar sin miedo.          </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+    </div>
+</div>
+</div>
+       
+      </div>
+    </div>
+  </footer>
+  <div  class="text-white text-center fw-bold"> <p>&copy; 2024 U-MAN S.A. Todos los derechos reservados. <br> Diseñado y maquetado por Daniel Durán López.</p>
+  </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
